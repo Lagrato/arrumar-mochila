@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-family: 'Consolas';
+}
+
+h3 {
+    font-size: 3.5vmin;
+}
+
+h2 {
+    font-size: 3.7vmin;
+}
+
+h1 {
+    font-size: 5.5vmin;
+}
+
+select {
+    width: 10vw;
+    height: 3vh;
+    background-color: #666666;
+    color:seashell;
+}
+
+#de, #para {
+    width: 20vh;
+    display: inline-block;
+}
+
+#remover, #adicionar, #tudo {
+    width: 20vw;
+    height: 60vh;
+    display: inline-block;
+    border: 1px solid gray;
+    vertical-align: top;
+    overflow: auto;
+}
+
+#tirar {
+    color: #cb032b;
+}
+
+#colocar {
+    color: #1d7a46;
+}
+
+#remover {
+    color:crimson;
+}
+
+#adicionar {
+    color:seagreen;
+}
+
+.materialDaMala {
+    font-size: 2vmin;
+} 
