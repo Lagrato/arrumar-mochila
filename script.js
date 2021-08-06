@@ -198,8 +198,8 @@ window.onload = () => {
   
   const date = new Date();
   if (date.getDay() != 0 && date.getDay() !== 6) {
-    dropDowns[0].selectedIndex = 5;
-    dropDowns[1].selectedIndex = 1;
+    dropDowns[0].selectedIndex = 4;
+    dropDowns[1].selectedIndex = 0;
   } else {
     dropDowns[0].selectedIndex = date.getDay() - 1;
     dropDowns[1].selectedIndex = date.getDay();
