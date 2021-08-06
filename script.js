@@ -199,7 +199,7 @@ window.onload = () => {
   const date = new Date();
 
   dropDowns[0].selectedIndex = date.getDay() - 1;
-  dropDowns[1].selectedIndex = date.getDay();
+  dropDowns[1].selectedIndex = date.getDay() !== 0 && date.getDay() !== 6 ? date.getDay() : 1;
   onDropDownChange();
 
   for (let dropDown of dropDowns) {
