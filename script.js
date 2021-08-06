@@ -197,9 +197,13 @@ window.onload = () => {
   }
   
   const date = new Date();
-
-  dropDowns[0].selectedIndex = date.getDay() - 1;
-  dropDowns[1].selectedIndex = date.getDay() !== 0 && date.getDay() !== 6 ? date.getDay() : 1;
+  if (date.getDay() != 0 && date.getDay() !== 6) {
+    dropDowns[0].selectedIndex = 5;
+    dropDowns[1].selectedIndex = 1;
+  } else {
+    dropDowns[0].selectedIndex = date.getDay() - 1;
+    dropDowns[1].selectedIndex = date.getDay();
+  }
   onDropDownChange();
 
   for (let dropDown of dropDowns) {
