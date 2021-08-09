@@ -197,12 +197,17 @@ window.onload = () => {
   }
   
   const date = new Date();
-  if (date.getDay() != 0 && date.getDay() !== 6) {
+  const weekDay = date.getDay();
+
+  if (weekDay === 0 && weekDay === 6) {
+    dropDowns[0].selectedIndex = 4;
+    dropDowns[1].selectedIndex = 0;
+  } else if (weekDay + 1 === 6) {
     dropDowns[0].selectedIndex = 4;
     dropDowns[1].selectedIndex = 0;
   } else {
-    dropDowns[0].selectedIndex = date.getDay() - 1;
-    dropDowns[1].selectedIndex = date.getDay();
+    dropDowns[0].selectedIndex = weekDay - 1;
+    dropDowns[1].selectedIndex = weekDay;
   }
   onDropDownChange();
 
