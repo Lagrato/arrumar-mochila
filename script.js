@@ -199,7 +199,7 @@ window.onload = () => {
   const date = new Date();
   const weekDay = date.getDay();
 
-  if (weekDay === 0 && weekDay === 6) {
+  if (weekDay === 0 || weekDay === 6) {
     dropDowns[0].selectedIndex = 4;
     dropDowns[1].selectedIndex = 0;
   } else if (weekDay + 1 === 6) {
