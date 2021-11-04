@@ -119,24 +119,24 @@ class DiaDeAula {
   }
 }
 
-const Historia_A = new Materia(Materiais.HIS_1B, Materiais.HIS_2A);
-const Historia_B = new Materia(Materiais.HIS_1B, Materiais.HIS_2A);
-const Redacao = new Materia(Materiais.RED_1B, Materiais.RED_2);
+const Historia_A = new Materia(Materiais.HIS_2A, Materiais.HIS_2B);
+const Historia_B = new Materia(Materiais.HIS_2A, Materiais.HIS_2B);
+const Redacao = new Materia(Materiais.RED_2);
 const Fisica = new Materia(Materiais.FIS_APOSTILA);
-const Ingles = new Materia(Materiais.ING_1B);
-const Quimica = new Materia(Materiais.QUI_2A, Materiais.QUI_APOSTILA);
-const Matematica_A = new Materia(Materiais.MAT_2A);
-const Matematica_B = new Materia(Materiais.MAT_2A);
-const Matematica_C = new Materia(Materiais.MAT_2A);
-const Artes = new Materia(Materiais.ART_1B, Materiais.ART_2);
-const Filosofia = new Materia(Materiais.FIL_1B, Materiais.FIL_2);
-const Sociologia = new Materia(Materiais.SOC_1B, Materiais.SOC_2);
-const Biologia_A = new Materia(Materiais.BIO_1B, Materiais.BIO_2A);
-const Biologia_B = new Materia(Materiais.BIO_2A);
-const Geografia = new Materia(Materiais.GEO_1B, Materiais.GEO_2A);
-const Literatura = new Materia(Materiais.POR_2A);
-const Gramatica = new Materia(Materiais.POR_1B, Materiais.POR_2A);
-const Texto = new Materia(Materiais.POR_1B, Materiais.POR_2A);
+const Ingles = new Materia(Materiais.ING_2);
+const Quimica = new Materia(Materiais.QUI_2A, Materiais.QUI_2B, Materiais.QUI_APOSTILA);
+const Matematica_A = new Materia(Materiais.MAT_2B);
+const Matematica_B = new Materia(Materiais.MAT_2B);
+const Matematica_C = new Materia(Materiais.MAT_2B);
+const Artes = new Materia(Materiais.ART_2);
+const Filosofia = new Materia(Materiais.FIL_2);
+const Sociologia = new Materia(Materiais.SOC_2);
+const Biologia_A = new Materia(Materiais.BIO_2A);
+const Biologia_B = new Materia(Materiais.BIO_2B);
+const Geografia = new Materia(Materiais.GEO_2A, Materiais.GEO_2B);
+const Literatura = new Materia(Materiais.POR_2B);
+const Gramatica = new Materia(Materiais.POR_2A, Materiais.POR_2B);
+const Texto = new Materia(Materiais.POR_2A, Materiais.POR_2B);
 const Semente = new Materia(Materiais.SEM_APOSTILA);
 
 const Segunda = new DiaDeAula(Historia_B, Redacao, Fisica, Ingles, Quimica, Matematica_C);
